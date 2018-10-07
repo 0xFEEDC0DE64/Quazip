@@ -37,6 +37,6 @@ add_library(quazip ${HEADERS} ${SOURCES})
 
 target_compile_definitions(quazip PRIVATE QUAZIP_BUILD)
 
-target_link_libraries(quazip Qt5::Core zlib)
+target_link_libraries(quazip Qt5::Core z)
 
 target_include_directories(quazip PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
