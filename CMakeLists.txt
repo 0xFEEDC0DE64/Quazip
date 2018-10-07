@@ -1,5 +1,7 @@
 project(Quazip)
 
+find_package(ZLIB REQUIRED)
+
 set(HEADERS
     crypt.h
     ioapi.h
