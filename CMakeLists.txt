@@ -35,7 +35,7 @@ set(SOURCES
     quazipnewinfo.cpp
 )
 
-add_library(quazip ${HEADERS} ${SOURCES})
+add_library(quazip SHARED ${HEADERS} ${SOURCES})
 
 target_compile_definitions(quazip PRIVATE QUAZIP_BUILD)
 
