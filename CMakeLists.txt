@@ -1,5 +1,6 @@
 project(Quazip)
 
+find_package(Qt5Core CONFIG REQUIRED)
 find_package(ZLIB REQUIRED)
 
 set(HEADERS
